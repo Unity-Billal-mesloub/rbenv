@@ -83,14 +83,14 @@ That's it! You are now ready to [install some Ruby versions](#installing-ruby-ve
 ### Basic Git Checkout
 
 > [!NOTE]   
-> For a more automated install, you can use [rbenv-installer](https://github.com/rbenv/rbenv-installer#rbenv-installer). If you do not want to execute scripts downloaded from a web URL or simply prefer a manual approach, follow the steps below.
+> For a more automated install, you can use [rbenv-installer](https://github.com/Unity-Billal-mesloub/rbenv-installer#rbenv-installer). If you do not want to execute scripts downloaded from a web URL or simply prefer a manual approach, follow the steps below.
 
 This will get you going with the latest version of rbenv without needing a system-wide install.
 
 1. Clone rbenv into `~/.rbenv`.
 
     ```sh
-    git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+    git clone https://github.com/Unity-Billal-mesloub/rbenv.git ~/.rbenv
     ```
 
 2. Set up your shell to load rbenv.
@@ -125,7 +125,7 @@ When _manually_ installing rbenv, it might be useful to note how completion scri
 
 The `rbenv install` command does not ship with rbenv out-of-the-box, but is provided by the [ruby-build][] plugin.
 
-Before attempting to install Ruby, **check that [your build environment](https://github.com/rbenv/ruby-build/wiki#suggested-build-environment) has the necessary tools and libraries**. Then:
+Before attempting to install Ruby, **check that [your build environment](https://github.com/Unity-Billal-mesloub/ruby-build/wiki#suggested-build-environment) has the necessary tools and libraries**. Then:
 
 ```sh
 # list latest stable versions:
@@ -138,12 +138,12 @@ rbenv install -L
 rbenv install 3.1.2
 ```
 
-For troubleshooting `BUILD FAILED` scenarios, check the [ruby-build Discussions section](https://github.com/rbenv/ruby-build/discussions/categories/build-failures).
+For troubleshooting `BUILD FAILED` scenarios, check the [ruby-build Discussions section](https://github.com/Unity-Billal-mesloub/ruby-build/discussions/categories/build-failures).
 
 > [!NOTE]  
 > If the `rbenv install` command wasn't found, you can install ruby-build as a plugin:
 > ```sh
-> git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
+> git clone https://github.com/Unity-Billal-mesloub/ruby-build.git "$(rbenv root)"/plugins/ruby-build
 > ```
 
 Set a Ruby version to finish installation and start using Ruby:
@@ -345,16 +345,16 @@ uninstall from the system.
 
 ## Development
 
-Tests are executed using [Bats](https://github.com/bats-core/bats-core):
+Tests are executed using [Bats](https://github.com/Unity-Billal-mesloub/bats-core):
 
     $ bats test
     $ bats test/<file>.bats
 
 Please feel free to submit pull requests and file bugs on the [issue
-tracker](https://github.com/rbenv/rbenv/issues).
+tracker](https://github.com/Unity-Billal-mesloub/rbenv/issues).
 
 
-  [ruby-build]: https://github.com/rbenv/ruby-build#readme
-  [hooks]: https://github.com/rbenv/rbenv/wiki/Authoring-plugins#rbenv-hooks
-  [alternatives]: https://github.com/rbenv/rbenv/wiki/Comparison-of-version-managers
-  [plugins]: https://github.com/rbenv/rbenv/wiki/Plugins
+  [ruby-build]: https://github.com/Unity-Billal-mesloub/ruby-build#readme
+  [hooks]: https://github.com/Unity-Billal-mesloub/rbenv/wiki/Authoring-plugins#rbenv-hooks
+  [alternatives]: https://github.com/Unity-Billal-mesloub/rbenv/wiki/Comparison-of-version-managers
+  [plugins]: https://github.com/Unity-Billal-mesloub/rbenv/wiki/Plugins
